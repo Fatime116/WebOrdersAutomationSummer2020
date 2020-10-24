@@ -19,7 +19,7 @@ public class LoginPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    public void login(){
+    public void login() {
         String username = ConfigurationReader.getProperty("username");
         String password = ConfigurationReader.getProperty("password");
 
